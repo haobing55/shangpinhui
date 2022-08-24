@@ -13,7 +13,7 @@ module.exports = {
   devServer: {
     proxy: {
       '/api': {
-        target: 'http://39.98.123.211',
+        target: 'http://gmall-h5-api.atguigu.cn',
         //pathRewrite:{'^/api':''}//后台地址端口都带了api，不需要重写为空
          ws: false,
         // changeOrigin: true//用于控制请求头中的host值 true为端口5000 false为端口8080
